@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="/css/light.css"
+      media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)"
+    />
+    <link
+      rel="stylesheet"
+      href="/css/dark.css"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be_Better - Deals</title>
+  </head>
+  <body>
+    <!--Navigation Bar-->
+
+    <nav>
+      <div class="logo">
+        <h1>Be<span class="log">_Better</span></h1>
+      </div>
+      <div class="buttton">
+        <button id="add-deal-btn" onclick="dealAdder()">
+          &#xFF0B; Add Deal
+        </button>
+      </div>
+      <div class="social">
+        <i class="fab fa-twitter fa-lg"></i>
+        <i class="fab fa-facebook fa-lg"></i>
+        <i class="fab fa-youtube fa-lg"></i>
+      </div>
+      <div class="menus">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="#" class="active" id="active-section">Deals</a></li>
+          <li><a href="#" id="open-modal">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <!--Modal Section-->
+      <div class="modal" id="modal-bg">
+        <div class="login">
+          <a href="#" id="close-modal"><img src="/images/Cross.svg" /></a>
+          <form>
+            <label for="name">e-mail:</label>
+            <input
+              type="email"
+              placeholder="valid e-mail address"
+              id="email"
+            /><br />
+            <label for="password">password:</label>
+            <input type="password" placeholder="password" id="pass" />
+          </form>
+          <button onclick="checkAll()">Register</button>
+        </div>
+      </div>
+    </section>
+    <!--Add Deal Action-->
+    <section>
+      <div class="deal-add" id="deal-add-bg">
+        <h1>You can send us the deal we've missed!</h1>
+        <input type="text" placeholder=" paste link here" />
+        <button id="send-tip-btn" onclick="sendTip()">Send the tip!</button>
+      </div>
+    </section>
+
+    <div class="top-deals">
+      <div class="top-deal-1">
+        <h1>Example Title</h1>
+        <div><img /></div>
+      </div>
+      <div class="top-deal-2">
+        <h1>Example Title</h1>
+        <div><img /></div>
+      </div>
+      <div class="top-deal-3">
+        <h1>Example Title</h1>
+        <div><img /></div>
+      </div>
+      <div class="top-deal-4">
+        <h1>Example Title</h1>
+        <div><img /></div>
+      </div>
+      <div class="top-deal-5">
+        <h1>Example Title</h1>
+        <div><img /></div>
+      </div>
+      <div class="top-deal-6">
+        <h1>Example Title</h1>
+        <div><img /></div>
+      </div>
+    </div>
+    <section>
+      <div class="regular-deals">
+        <div class="reg-deal-1">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-2">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-3">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-4">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-5">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-6">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-7">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-8">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-9">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-10">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-11">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+        <div class="reg-deal-12">
+          <div>
+            <img />
+          </div>
+          <div class="side-b">
+            <h1>Example Text</h1>
+            <p class="old-price">Old Price: $49.99</p>
+            <p class="new-price">New Price: $29.99</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="dist/main.js"></script>
+  </body>
+</html>

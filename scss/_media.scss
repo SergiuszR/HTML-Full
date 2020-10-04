@@ -1,0 +1,72 @@
+@media (max-width: 651px) {
+  .post-container .post-txt p {
+    font-size: 12px;
+  }
+
+  nav ul li a {
+    font-size: 0.9em;
+    margin-left: 0px;
+  }
+
+  nav .buttton button {
+    font-size: 12px;
+    width: 100px;
+  }
+
+  nav .social,
+  nav.sticky .social {
+    margin-right: 4px;
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .top-container {
+    height: 140vh;
+    transition: all 400ms ease;
+  }
+  nav ul li a {
+    margin-left: 0px;
+  }
+
+  nav .social i,
+  nav.sticky .social i {
+    padding: 1px;
+    font-size: 1em;
+  }
+
+  .video-container {
+    transition: all 400ms ease;
+  }
+
+  .deal-add {
+    flex-direction: column;
+    height: auto;
+    transition: all 400ms ease;
+
+    & input {
+      margin-top: 10px;
+      margin-right: 10px;
+      width: 100%;
+    }
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 760px) {
+  nav.sticky .social i {
+    font-size: 1.1em;
+  }
+}
