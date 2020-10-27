@@ -1,6 +1,6 @@
 :root {
   --lead-color: rgb(174, 0, 0);
-  --bg-img: url(/images/bg-dark2.png);
+  --bg-img: url("https://mryoshisan.github.io/HTML-Full/images/bg-dark2.png");
   --a-hover: rgba(200, 200, 200, 0.849);
   --opacity-val: 0.9;
   --border: 1px solid rgb(0, 0, 0);
